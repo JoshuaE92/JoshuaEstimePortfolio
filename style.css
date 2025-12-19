@@ -8,8 +8,9 @@ body{
     font-family:'Poppins',sans-serif ; 
     height:100%;
     width:100%;
-    
+    background-image:linear-gradient(45deg, #607848,#607848);
     position:relative;
+  
     
 }
 
@@ -23,7 +24,7 @@ body{
    min-height:10vh;
     display:flex;
     position:relative;
-    background-color:black;
+    background-color:linear-gradient(45deg,#607848,#5C6380);;
     top:0px;
 
     
@@ -43,7 +44,7 @@ header{
     margin:0px;
     font-size:x-large;
    
-    color:white;
+    color:black;
     
 }
 
@@ -64,7 +65,7 @@ header{
     justify-content:space-between;
     position:absolute;
     left:50%;
-    color:white;
+    color:black;
     
    
 
@@ -91,12 +92,88 @@ header{
 }
 
 #resume{
-    border-style:solid;
-    border-radius:5px;
+   /* border-style:solid;
+    border-radius:5px;*/
 
 }
 
 #icon{
     height:80px;
     width:80px;
+}
+
+#profile-container{
+    position:relative;
+    display:flex;
+    justify-content: space-evenly;
+    border-style:solid;
+    /*border-color:green;*/
+    min-height: 85vh;
+    min-width:100vh;
+    align-items:center;
+    
+
+}
+
+#profile-img-cotainer{
+    width:50vh;
+    height:50vh;;
+    /*border-color:red;*/
+    /*border-style:solid;*/
+    right:30;
+    
+}
+#profile-img{
+    width:100%;
+    height:100%;
+    border-radius:50%;
+   /* border-style:solid;*/
+   /* border-color:purple;*/
+    object-fit: cover;
+    
+}
+
+#profile-text-container{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between
+   /* border-color:blue;*/
+    border-style:solid;
+    height:35vh;
+    width:40%;
+    left:40;
+}
+
+#profile-text-container>h1{
+    text-align: center;
+   /* border-color:blue;*/
+    border-style:solid;
+
+   color:white
+}
+#profile-text-container>p{
+   /* border-color:blue;*/
+    /*border-style:solid;*/
+   color:white
+}
+
+#button-container{
+    display:flex;
+    justify-content:center;
+    height:20%;
+    width:35%;
+    border-style:solid;
+    border-
+}
+#learn-more{
+
+    height:50%;
+    background-color: #74A12E;
+    border-radius: 10%;
+}
+.titles{
+    border-style: solid;
+    border-color:brown;
+    top:0%;
 }

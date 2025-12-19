@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     <title>Portfolio</title>
 </head>
 <body>
@@ -41,18 +42,30 @@
     </header>
 
         <div id="profile-container">
-            <div id="prof-img-cotainer">
-                <img class="nav-image"  src="./assets/githubbb.png">
+            <div id="profile-img-cotainer">
+                <img id="profile-img" src="./assets/mypic.png">
                 
             </div>
 
             <div id="profile-text-container">
-                <h1> Helo Im Joshua Estime</h1>
-                <p> Playlist Architect</p>
+                <h1> Hi, I'm Joshua Estime</h1>
+                
+            <h1 class="titles"><span class="title"></span></h1>
+            
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed=new Typed(".title",{strings : ["CS Student", " Aspiring Software Engineer", "Musician"],
+                typeSpeed: 50,
+                backSpeed : 80,
+                loop: true
+                })
+            </script>
+                <div id="button-container">
+                <button id="learn-more">
                 <a href="nothing for now"> Click to learn more</a>
+                </button>
 
-
-
+                </div>
             </div>
 
 
@@ -62,6 +75,13 @@
 
 
 
+
+
+        </div>
+
+        <div id="about section">
+            <h1> Lets begin the yap</h1>
+            <p> hey im joshua a computer sciecne tudent at the university of central florida</p>
         </div>
 
 
